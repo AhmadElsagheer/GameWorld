@@ -1,0 +1,178 @@
+
+.navbar-inverse {
+  background-color: rgba(144, 144, 144, 0.8);
+  }
+
+.message-thread{
+
+font-family: Verdana;
+  padding-left: 40px;
+  min-width: 1000px;
+
+
+}
+
+.message-row {
+  margin-left: 30px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  min-height: 50px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px black;
+}
+.message {
+  padding: 5px;
+  position: relative;
+  display: inline-block;
+  
+  
+}
+
+.message-content {
+
+  min-width: 500px;
+  margin-left: 10px; 
+  margin-right: 10px; 
+
+}
+
+.message-date{
+  margin-right: 10px;
+  float: right;
+}
+
+
+.message-friend{
+
+  margin-left: 20px;
+background-color: #FF6666;
+ border-radius: 20px 20px 20px 20px;
+  float: left;
+}
+
+
+.message-me{
+
+  margin-left: 20px;
+  background-color: #33CC66;
+ border-radius: 20px 20px 20px 20px;
+  float: left;
+}
+
+
+
+body {
+  padding-top: 70px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.header {
+
+
+	margin: 0px 50px 10px 250px;
+	background-color: rgba(255, 255, 255, 0.6);
+	min-height: 700px;
+	border: 2px solid #428bca;
+  box-shadow: 0px 0px 7px black;
+	border-radius: 2%;
+}
+
+
+
+.panel-footer {
+  z-index: 2;
+	position: relative;
+	bottom: -20px;
+	background-color: rgba(144, 144, 144, 0.8);
+	border-top: 1px solid black;
+  
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+    box-shadow: 1px 1px 10px black;
+  }
+}
+
+.nav-sidebar {
+
+
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  text-align: center;
+
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+#send{
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 57px;
+        background-color: #428bca;
+        border: none;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        text-transform:uppercase;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        
+        width: 100px;
+        height: 40px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    }
+#send:hover{
+  background-color: green;
+}
+.new-message{
+  display: inline-block;
+  
+}
+#message {
+        margin-left: 10px;
+        display: inline-block;
+        width: 830px;
+        height: 100px;
+        background: #fff;
+        border: 1px solid #CCCCCC;
+        color: #404040;
+        font-size: 14px;
+        line-height: 1.2em;
+        
+
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    }

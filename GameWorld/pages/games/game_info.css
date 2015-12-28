@@ -1,0 +1,322 @@
+
+.rating, .recommendation
+{
+	display: none;
+	padding: 10px;
+	position: fixed;
+	top: 100px;
+	left: 200px;
+	width: 900px;
+	height: 500px;
+	border-radius: 30px 30px 30px 30px;
+	background-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 0px 10px white;
+}
+
+
+.stars{
+	margin-bottom: 40px;
+}
+.example-fontawesome{
+	/*float: left;*/
+}
+.rating-title{
+	color: orange;
+	text-shadow: 0px 0px 5px black;
+	font-size: 30px;
+	font-family: Verdana;
+	margin-bottom: 50px;
+}
+.navbar-inverse {
+  background-color: rgba(144, 144, 144, 0.8);
+  }
+
+hr {
+	border: 1px solid black;
+}
+table
+{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(144, 144, 144, 0.2);
+}
+
+thead {
+	background-color: rgba(255, 255, 255, 0.4);
+
+
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.container-outer { padding-top:5px;overflow-x: scroll; width: 1175px; height: 230px; }
+.container-inner { width: 10000px; }
+
+.video-container{ 
+
+	padding-top: 15px;
+	text-align: center;
+	overflow-y: scroll;
+	display:inline-block; 
+	float:right;
+	width: 200px;
+	height: 450px;
+}
+
+.btt {
+	font-family: Verdana;
+	font-size: 20px;
+	text-align: center;
+	margin: 10px;
+	display: block;
+	background-color: transparent;
+	border: none;
+	color: black;
+}
+
+.btt:hover{
+	color: orange;
+	
+}
+.row img {
+
+	width: 200px;
+	height: 200px;
+}
+.header {
+
+
+	font-family: Impact;
+	text-align: center;
+	padding-top: 2px;
+	margin-left: 50px;
+	margin-right: 50px;
+  padding-bottom: 10px; 
+	background-color: rgba(255, 255, 255, 0.6);
+	min-height: 700px;
+	border: 2px solid black;
+	box-shadow: 0px 0px 5px black;
+	border-radius: 2%;
+}
+
+h3{
+	margin-top: -2px;
+	margin-bottom: -2px;
+	padding: 30px 0px 30px 0px;
+	font-family: Verdana;
+	font-size: 30px;
+	background-color: rgba(255, 134, 13, 0.4);
+	border-top: black 2px solid;
+	border-bottom: black 2px solid;
+
+	box-shadow: 0px 0px 5px black;
+
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        text-transform:uppercase;
+        
+        cursor: pointer;
+        
+        
+        
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+}
+
+h3:hover{
+	background-color: rgba(255, 134, 13, 0.8);
+	color: white;
+}
+.row{
+	display: none;
+	margin: 5px 0px 5px 0px;
+	text-align: left;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+.row-panel{
+	padding-left: 50px;
+
+}
+.header .nav-tabs {
+
+	font-size: 20px;
+
+}
+
+.nav-tabs > li > a {
+	border-radius: 10px 10px 0 0;
+}
+
+
+.panel-footer {
+	position: relative;
+	bottom: -20px;
+	background-color: rgba(144, 144, 144, 0.8);
+	border-top: 1px solid black;
+  
+}
+
+
+
+.review {
+  
+  padding: 3px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  width: 1200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  
+  box-shadow: 0px 0px 5px black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+
+#send, #add-review{
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 67px;
+        background-color: #428bca;
+        border: none;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        text-transform:uppercase;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        
+        min-width: 100px;
+        height: 40px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    }
+#send:hover, #add-review:hover{
+  background-color: green;
+}
+
+.new-review-area, #send{
+
+		display: none;
+}
+
+#new-review {
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        width: 1100px;
+        height: 100px;
+        background: #fff;
+        border: 1px solid #CCCCCC;
+        color: #404040;
+        font-size: 14px;
+        line-height: 1.2em;
+        
+
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+
+.rate, .recommend{
+  		font-family: Impact; 
+        background-color: orange;
+        border: none;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        text-transform:uppercase;
+        color: white;
+        cursor: pointer;
+        font-size: 30px;
+        
+        min-width: 100px;
+        min-height: 40px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    }
+.rate:hover, .recommend:hover{
+  background-color: red;
+}
+
+
+
+#email{
+        
+        background: #fff;
+        border: 1px solid #CCCCCC;
+        color: #404040;
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-bottom:15px;
+        height: 50px;
+
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+
+
+
+#email   {
+        padding: 8px 6px;
+        text-align: center;
+        font-size: 20px;
+        width:300px;
+    }
+ 
+#email:focus
+   
+   {
+        background:#f5fcfe;
+        text-indent: 0;
+        z-index: 1;
+        color: #373737;
+        -webkit-transition-duration: 400ms;
+        -webkit-transition-property: width, background;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-duration: 400ms;
+        -moz-transition-property: width, background;
+        -moz-transition-timing-function: ease;
+        -o-transition-duration: 400ms;
+        -o-transition-property: width, background;
+        -o-transition-timing-function: ease;
+        width: 380px;
+        
+        border-color:#ccc;
+        box-shadow:0 0 5px rgba(4, 129, 177, 0.5);
+        opacity:0.6;
+    }
+
+.recommendation{
+
+  padding-top: 150px;
+}
+
+.recommendation .recommend{
+  margin-top: 50px;
+  padding-bottom: 7px;
+}
+
+.row-panel{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

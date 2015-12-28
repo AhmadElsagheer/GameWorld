@@ -1,0 +1,132 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	background: url("../images/homepage/background2.jpg") no-repeat fixed;
+  	padding-top: 50px;
+  	padding-bottom: 20px;
+}
+ .navbar-header:hover {
+  background-color: black;
+}
+
+.jumbotron {
+	background-color: rgba(200,200,200,0.5) ;
+	margin-top: 30px;
+	margin-right: 200px;
+	margin-left: 200px;
+	color: black;
+	text-align: center;
+	text-shadow: 0 0 7px #00CCCC;
+	box-shadow: 0px 0px 10px #00CCCC;
+}
+
+.form-control {
+	background-color: #FFE4B5;
+}
+
+#nav-bar {
+  background-color: #F5F5F5;
+}
+
+.navbar-brand{
+  font-family: "Comic Sans MS";
+  border-radius: 2%;
+}
+
+
+.navbar-inverse {
+  background-color: rgba(144,144,144,0.8) ;
+  
+}
+
+.col-md-4 {
+
+	padding-left: 35px;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: black;
+	font-size: 18px;
+	
+}
+
+.btn {
+
+	font-size: 18px;
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+.col-md-4 h2{
+
+	text-shadow: 0 0 2px #00CCCC;
+}
+.col-md-4 img{
+	box-shadow: 0 0 7px #00CCCC;
+	border-radius: 5%;
+}
+#normal_user {
+
+	margin-bottom: 10px;
+	width: 320px;
+	height: 250px;
+}
+
+#verified_reviewer {
+
+	margin-bottom: 10px;
+	width: 320px;
+	height: 250px;
+
+}
+
+#development_team {
+
+	margin-bottom: 10px;
+	width: 320px;
+	height: 250px;
+
+}
+
+#sign_in {
+	font-family: Verdana;
+	text-transform:uppercase;
+	color: white;
+	font-size: 14px;	
+	background-color: rgba(255, 102, 0, 0.9);
+	border-color: #FFDAB9;
+}
+
+#home {
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  color: black;
+  text-shadow: 0 0 0.1px black;
+}
+
+#home:hover {
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 0 0.5px black;
+}
+
+#home img {
+  width: 30px;
+  height: 26px;
+  float: left;
+  margin-right: 10px;
+
+
+}
+
+.panel-footer {
+
+background-color: rgba(255,255,255,0.7);
+position: relative;
+	width: 100%;
+  bottom: -20px;
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 0.5px black;
+  font: 16px bold "Comic Sans MS";	
+  padding-bottom: 5px;
+  
+  
+}

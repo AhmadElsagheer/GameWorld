@@ -1,0 +1,56 @@
+
+.navbar-inverse {
+  background-color: rgba(144, 144, 144, 0.8);
+  }
+
+
+table
+{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(144, 144, 144, 0.2);
+}
+
+thead {
+	background-color: rgba(255, 255, 255, 0.4);
+
+
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.header {
+
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: rgba(255, 255, 255, 0.6);
+	min-height: 700px;
+	margin-bottom: 5px;
+	border-radius: 2%;
+}
+
+.header .nav-tabs {
+
+	font-size: 20px;
+
+}
+
+.nav-tabs > li > a {
+	border-radius: 10px 10px 0 0;
+}
+
+
+.panel-footer {
+	position: relative;
+	bottom: -20px;
+	background-color: rgba(144, 144, 144, 0.8);
+	border-top: 1px solid black;
+  
+}

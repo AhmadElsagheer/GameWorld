@@ -1,0 +1,131 @@
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 150px;
+    left: 538px;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    
+    z-index: -1;
+    transform: scale(0.5,2.5);
+}
+
+
+#cover {
+    
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    border: none;
+    box-shadow: none;
+}
+
+.placeholder img {
+	
+    
+    margin-top: -20px;
+    margin-bottom: 20px;
+	height: 150px;
+	width: 150px;	
+}
+
+
+
+#wrapper    input{
+        
+        background: #fff;
+        border: 1px solid #CCCCCC;
+        color: #404040;
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-bottom:15px;
+        height: 50px;
+
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+
+
+
+#wrapper    input[type="text"],
+   #wrapper  input[type="password"]
+   {
+        padding: 8px 6px;
+        text-align: center;
+        font-size: 20px;
+        width:300px;
+    }
+ 
+#wrapper    input[type="text"]:focus,
+   #wrapper  input[type="password"]:focus 
+   {
+        background:#f5fcfe;
+        text-indent: 0;
+        z-index: 1;
+        color: #373737;
+        -webkit-transition-duration: 400ms;
+        -webkit-transition-property: width, background;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-duration: 400ms;
+        -moz-transition-property: width, background;
+        -moz-transition-timing-function: ease;
+        -o-transition-duration: 400ms;
+        -o-transition-property: width, background;
+        -o-transition-timing-function: ease;
+        width: 380px;
+        
+        border-color:#ccc;
+        box-shadow:0 0 5px rgba(4, 129, 177, 0.5);
+        opacity:0.6;
+    }
+ #wrapper    input[type="submit"], #wrapper input[type="button"]{
+        background-color: rgba(255, 0, 0, 0.7);
+        border: none;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        text-transform:uppercase;
+        color: #eee;
+        cursor: pointer;
+        font-size: 15px;
+        margin: 5px 0;
+        padding: 5px 22px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+
+         -webkit-transition-duration: 400ms;
+        -webkit-transition-property: width, background;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-duration: 400ms;
+        -moz-transition-property: width, background;
+        -moz-transition-timing-function: ease;
+        -o-transition-duration: 400ms;
+        -o-transition-property: width, background;
+        -o-transition-timing-function: ease;
+            
+    }
+
+    #wrapper    input[type="submit"]:hover, #wrapper input[type="button"]:hover{ 
+
+
+        color: white; background: black;
+
+         -webkit-transition-duration: 400ms;
+        -webkit-transition-property: width, background;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-duration: 400ms;
+        -moz-transition-property: width, background;
+        -moz-transition-timing-function: ease;
+        -o-transition-duration: 400ms;
+        -o-transition-property: width, background;
+        -o-transition-timing-function: ease;
+        width: 300px;
+    
+    }
+  

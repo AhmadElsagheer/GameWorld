@@ -1,0 +1,135 @@
+footer {
+  
+  display: block;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 0.5px black;
+  font: 16px bold "Comic Sans MS";
+}
+
+.navbar-header {
+  padding-left: 3px;
+}
+
+nav ul li:hover, .navbar-header:hover {
+  background-color: none;
+}
+
+#friend
+{
+  position: absolute;
+  top: 200px;
+  left: 850px;
+}
+
+.panel-footer {
+  
+  padding-bottom: 3px;
+  background-color: rgba(255, 0, 0, 0.2);
+  border-color: grey;
+  
+}
+
+.jumbotron {
+  background-color: rgba(255, 0, 0, 0.2);
+  border-radius: 5%; 
+  border: grey outset;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 0 0 5px white;
+  height: 500px;
+  color: black;
+  box-shadow: 0px 0px 10px #FF6347;
+
+}
+
+body {
+  background: url("../../images/homepage/background.jpg") fixed;
+  padding-top: 50px;
+  
+}
+
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+  border: grey outset;
+  box-shadow: 0px 0px 10px #FF6347;
+}
+
+#nav-bar {
+  background-color: #F5F5F5;
+}
+
+.btn {
+  text-shadow: none;
+  background-color: rgba(255, 0, 0, 0.7);
+  border-color: white;
+}
+
+.btn:hover{
+  background-color: black;
+  border-color: white;
+}
+.navbar-brand{
+  font-family: "Comic Sans MS";
+  border-radius: 2%;
+}
+
+
+.navbar-inverse {
+  background-color: rgba(255, 0, 0, 0.2);
+  
+}
+
+#home1 {
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  color: black;
+  text-shadow: 0 0 0.1px black;
+}
+
+#home1 img {
+  width: 30px;
+  height: 26px;
+  float: left;
+  margin-right: 10px;
+
+
+}
+
+#home1:hover {
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 0 0.5px black;
+  background-color: black;
+}
+
+
+#home2, #profile, #logout{
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  color: black;
+  text-shadow: 0 0 0.1px black;
+}
+
+#home2:hover, #profile:hover, #logout:hover {
+  font-family: "Comic Sans MS";
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 0.5px black;
+}
+
+
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
